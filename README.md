@@ -34,7 +34,7 @@ Explore the components and their usage with our interactive Storybook. Click the
 
 ## Getting Started
 
-To get started using Sandeep's Awesome React Library in your project, simply install it via npm or Yarn as described in the Installation section. Then, import the components you need and start building amazing user interfaces effortlessly.
+To get started using Sandeep's Awesome React Library in your project, simply install it via npm or Yarn as described in the installation section. Then, import the components you need and start building amazing user interfaces effortlessly.
 
 ```jsx
 import React from 'react';
