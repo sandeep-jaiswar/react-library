@@ -9,7 +9,8 @@ You can install Sandeep's Awesome React Library via npm or Yarn:
 
 ```bash
 npm install @sandeep-jaiswar/react-library
-```
+
+npm install @sandeep-jaiswar/react-library
 or
 ```bash
 yarn add @sandeep-jaiswar/react-library
