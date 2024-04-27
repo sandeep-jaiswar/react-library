@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  TextField as AriaTextField,
-} from "react-aria-components";
+import { TextField as AriaTextField } from "react-aria-components";
 import { tv } from "tailwind-variants";
 import {
   Description,
@@ -10,7 +8,7 @@ import {
   Label,
   fieldBorderStyles,
 } from "../Field";
-import { composeTailwindRenderProps, focusRing } from "../utils";
+import { composeTailwindRenderProps, focusRing } from "../../scripts/utils";
 import { TextFieldProps } from "./types";
 
 const inputStyles = tv({
@@ -21,8 +19,6 @@ const inputStyles = tv({
     ...fieldBorderStyles.variants,
   },
 });
-
-
 
 export function TextField({
   label,

@@ -15,7 +15,7 @@ import {
   DropdownSectionProps,
 } from "../ListBox";
 import { Popover } from "../Popover";
-import { composeTailwindRenderProps } from "../utils";
+import { composeTailwindRenderProps } from "../../scripts/utils";
 import { ComboBoxProps } from "./types";
 
 export function ComboBox<T extends object>({

@@ -11,7 +11,7 @@ import {
   composeRenderProps,
 } from "react-aria-components";
 import { tv } from "tailwind-variants";
-import { focusRing } from "../utils";
+import { focusRing } from "../../scripts/utils";
 
 const tabsStyles = tv({
   base: "flex gap-4",

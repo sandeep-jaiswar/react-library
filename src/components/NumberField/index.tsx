@@ -13,9 +13,8 @@ import {
   Label,
   fieldBorderStyles,
 } from "../Field";
-import { composeTailwindRenderProps } from "../utils";
+import { composeTailwindRenderProps } from "../../scripts/utils";
 import { NumberFieldProps } from "./types";
-
 
 export function NumberField({
   label,

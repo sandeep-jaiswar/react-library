@@ -10,7 +10,7 @@ import { Dialog } from "../Dialog";
 import { Description, FieldError, FieldGroup, Label } from "../Field";
 import { Popover } from "../Popover";
 import { RangeCalendar } from "../RangeCalendar";
-import { composeTailwindRenderProps } from "../utils";
+import { composeTailwindRenderProps } from "../../scripts/utils";
 import { DateRangePickerProps } from "./types";
 
 export function DateRangePicker<T extends DateValue>({

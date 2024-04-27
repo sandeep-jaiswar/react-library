@@ -1,12 +1,8 @@
 import React from "react";
-import {
-  ProgressBar as AriaProgressBar,
-} from "react-aria-components";
+import { ProgressBar as AriaProgressBar } from "react-aria-components";
 import { Label } from "../Field";
-import { composeTailwindRenderProps } from "../utils";
+import { composeTailwindRenderProps } from "../../scripts/utils";
 import { ProgressBarProps } from "./types";
-
-
 
 export function ProgressBar({ label, ...props }: ProgressBarProps) {
   return (

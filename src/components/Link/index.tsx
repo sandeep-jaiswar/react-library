@@ -1,13 +1,8 @@
 import React from "react";
-import {
-  Link as AriaLink,
-  composeRenderProps,
-} from "react-aria-components";
+import { Link as AriaLink, composeRenderProps } from "react-aria-components";
 import { tv } from "tailwind-variants";
-import { focusRing } from "../utils";
+import { focusRing } from "../../scripts/utils";
 import { LinkProps } from "./types";
-
-
 
 const styles = tv({
   extend: focusRing,

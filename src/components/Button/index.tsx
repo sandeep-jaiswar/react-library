@@ -5,7 +5,7 @@ import {
   ButtonProps as RACButtonProps,
 } from "react-aria-components";
 import { tv } from "tailwind-variants";
-import { focusRing } from "../utils";
+import { focusRing } from "../../scripts/utils";
 import { ButtonProps } from "./types";
 
 let button = tv({

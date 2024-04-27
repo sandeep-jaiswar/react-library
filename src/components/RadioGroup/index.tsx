@@ -6,10 +6,8 @@ import {
 } from "react-aria-components";
 import { tv } from "tailwind-variants";
 import { Description, FieldError, Label } from "../Field";
-import { composeTailwindRenderProps, focusRing } from "../utils";
+import { composeTailwindRenderProps, focusRing } from "../../scripts/utils";
 import { RadioGroupProps } from "./types";
-
-
 
 export function RadioGroup(props: RadioGroupProps) {
   return (

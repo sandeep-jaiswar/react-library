@@ -15,7 +15,7 @@ import {
   DropdownSectionProps,
 } from "../ListBox";
 import { Popover } from "../Popover";
-import { composeTailwindRenderProps, focusRing } from "../utils";
+import { composeTailwindRenderProps, focusRing } from "../../scripts/utils";
 import { SelectProps } from "./types";
 
 const styles = tv({
@@ -29,8 +29,6 @@ const styles = tv({
     },
   },
 });
-
-
 
 export function Select<T extends object>({
   label,

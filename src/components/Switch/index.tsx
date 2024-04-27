@@ -1,12 +1,8 @@
 import React from "react";
-import {
-  Switch as AriaSwitch,
-} from "react-aria-components";
+import { Switch as AriaSwitch } from "react-aria-components";
 import { tv } from "tailwind-variants";
-import { composeTailwindRenderProps, focusRing } from "../utils";
+import { composeTailwindRenderProps, focusRing } from "../../scripts/utils";
 import { SwitchProps } from "./types";
-
-
 
 const track = tv({
   extend: focusRing,

@@ -9,10 +9,8 @@ import {
 } from "react-aria-components";
 import { tv } from "tailwind-variants";
 import { CalendarGridHeader, CalendarHeader } from "../Calendar";
-import { focusRing } from "../utils";
+import { focusRing } from "../../scripts/utils";
 import { RangeCalendarProps } from "./types";
-
-
 
 const cell = tv({
   extend: focusRing,

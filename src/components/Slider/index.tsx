@@ -7,7 +7,7 @@ import {
 } from "react-aria-components";
 import { tv } from "tailwind-variants";
 import { Label } from "../Field";
-import { composeTailwindRenderProps, focusRing } from "../utils";
+import { composeTailwindRenderProps, focusRing } from "../../scripts/utils";
 import { SliderProps } from "./types";
 
 const trackStyles = tv({
@@ -36,8 +36,6 @@ const thumbStyles = tv({
     },
   },
 });
-
-
 
 export function Slider<T extends number | number[]>({
   label,

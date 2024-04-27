@@ -15,7 +15,7 @@ import {
 } from "react-aria-components";
 import { tv } from "tailwind-variants";
 import { Button } from "../Button";
-import { focusRing } from "../utils";
+import { focusRing } from "../../scripts/utils";
 import { CalendarProps } from "./types";
 
 const cellStyles = tv({

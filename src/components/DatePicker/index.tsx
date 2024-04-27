@@ -12,7 +12,7 @@ import { DateInput } from "../DateField";
 import { Dialog } from "../Dialog";
 import { Description, FieldError, FieldGroup, Label } from "../Field";
 import { Popover } from "../Popover";
-import { composeTailwindRenderProps } from "../utils";
+import { composeTailwindRenderProps } from "../../scripts/utils";
 import { DatePickerProps } from "./types";
 
 export function DatePicker<T extends DateValue>({
