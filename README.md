@@ -28,7 +28,7 @@ Explore the components and their usage with our interactive Storybook. Click the
 - **Customizable:** Tailor the components to fit your project's design requirements.
 - **TypeScript Support:** Built with TypeScript for enhanced code quality and developer experience.
 - **Responsive:** Components are designed with responsiveness in mind, ensuring compatibility across devices.
-- **Open Source:** Contribute to the project and help us improve the library for the community.
+- **Open source:** Contribute to the project and help us improve the library for the community.
 
 ## Getting Started
 
