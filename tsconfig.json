@@ -21,6 +21,6 @@
   },
   "include": [
     "src",
-    "stories"
+    "src/stories"
   ]
 }

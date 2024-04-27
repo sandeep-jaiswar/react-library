@@ -32,7 +32,7 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build": "webpack",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build -o dist/storybook"
   },
   "exports": {
     ".": {
