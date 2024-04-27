@@ -9,3 +9,6 @@ storybook-static
 
 # publish related configs
 .npmrc
+
+# dist
+dist

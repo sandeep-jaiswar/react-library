@@ -1,18 +1,22 @@
-import type { Meta } from '@storybook/react';
-import React from 'react';
-import { Form } from 'react-aria-components';
-import { Button } from '../src/Button';
-import { ComboBox, ComboBoxItem, ComboBoxSection } from '../src/ComboBox';
+import type { Meta } from "@storybook/react";
+import React from "react";
+import { Form } from "react-aria-components";
+import { Button } from "../src/Button";
+import {
+  ComboBox,
+  ComboBoxItem,
+  ComboBoxSection,
+} from "../src/ComboBox";
 
 const meta: Meta<typeof ComboBox> = {
   component: ComboBox,
   parameters: {
-    layout: 'centered'
+    layout: "centered",
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   args: {
-    label: 'Ice cream flavor'
-  }
+    label: "Ice cream flavor",
+  },
 };
 
 export default meta;
@@ -28,7 +32,7 @@ export const Example = (args: any) => (
 
 export const DisabledItems = (args: any) => <Example {...args} />;
 DisabledItems.args = {
-  disabledKeys: ['mint']
+  disabledKeys: ["mint"],
 };
 
 export const Sections = (args: any) => (
@@ -53,20 +57,22 @@ export const Sections = (args: any) => (
       <ComboBoxItem id="Cauliflower">Cauliflower</ComboBoxItem>
       <ComboBoxItem id="Potatoes">Potatoes</ComboBoxItem>
     </ComboBoxSection>
-    </ComboBox>
+  </ComboBox>
 );
 
 Sections.args = {
-  label: 'Preferred fruit or vegetable'
+  label: "Preferred fruit or vegetable",
 };
 
 export const Validation = (args: any) => (
   <Form className="flex flex-col gap-2 items-start">
     <Example {...args} />
-    <Button type="submit" variant="secondary">Submit</Button>
+    <Button type="submit" variant="secondary">
+      Submit
+    </Button>
   </Form>
 );
 
 Validation.args = {
-  isRequired: true
+  isRequired: true,
 };

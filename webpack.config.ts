@@ -3,7 +3,9 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.ts",
+  entry: {
+    main: './src/index.tsx'
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name]_bundle.js",
@@ -13,22 +15,30 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.(js|jsx)$/, use: "babel-loader", exclude: /node_modules/ },
-      { test: /\.(ts|tsx)$/, use: "ts-loader", exclude: /node_modules/ }, // Use ts-loader for TypeScript files
-      { test: /\.css$/, use: ["style-loader", "css-loader"] },
+      {
+        test: /\.(js|jsx|ts|tsx)$/,
+        use: "babel-loader",
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   mode: "development",
+  devtool: 'source-map',
   resolve: {
-    extensions: ["*", ".js", ".jsx", ".ts", ".tsx"],
+    extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
   optimization: {
+    runtimeChunk: 'single',
     splitChunks: {
       cacheGroups: {
         vendors: {
           test: /[\\/]node_modules[\\/]/,
           name: "vendors",
-          chunks: "all",
+          chunks: "initial",
         },
       },
     },
@@ -36,7 +46,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new CopyPlugin({
-      patterns: [{ from: "src/**/types/index.ts", to: "types" }],
+      patterns: [{ from: "src", to: "src" }],
     }),
   ],
 };

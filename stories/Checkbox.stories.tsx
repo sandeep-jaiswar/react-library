@@ -1,17 +1,17 @@
-import { Checkbox } from '../src/Checkbox';
+import { Checkbox } from "../src/Checkbox";
 
 export default {
-  title: 'Checkbox',
+  title: "Checkbox",
   component: Checkbox,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {},
   args: {
     isDisabled: false,
-    children: 'Checkbox'
-  }
+    children: "Checkbox",
+  },
 };
 
 export const Default = {
