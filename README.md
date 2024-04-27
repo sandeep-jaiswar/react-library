@@ -14,6 +14,8 @@ npm install @sandeep-jaiswar/react-library
 or
 ```bash
 yarn add @sandeep-jaiswar/react-library
+
+yarn add @sandeep-jaiswar/react-library
 ```
 
 ## Documentation and Usage
