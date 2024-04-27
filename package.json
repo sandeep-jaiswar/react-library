@@ -1,4 +1,9 @@
 {
+  "name": "@sandeep-jaiswar/react-library",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/sandeep-jaiswar/react-library.git"
+  },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
