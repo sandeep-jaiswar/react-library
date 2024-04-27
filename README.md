@@ -1,4 +1,4 @@
-```
+```markdown
 # Sandeep's Awesome React Library
 
 Welcome to Sandeep's Awesome React Library! This library provides a collection of reusable and customizable React components built with TypeScript and Tailwind CSS, designed to supercharge your web development projects.
@@ -69,6 +69,7 @@ If you encounter any issues or have any questions, feel free to [open an issue](
 ---
 
 **Sandeep's Awesome React Library** - Created with ❤️ by Sandeep Jaiswar
+
 ```
 
 Feel free to customize it further according to your preferences!
