@@ -1,12 +1,12 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
 import { DialogTrigger } from "react-aria-components";
-import { AlertDialog } from "../src/AlertDialog";
-import { Button } from "../src/Button";
-import { Modal } from "../src/Modal";
+import { AlertDialog } from "../components/AlertDialog";
+import { Button } from "../components/Button";
+import { Modal } from "../components/Modal";
 
 const meta: Meta<typeof AlertDialog> = {
-  component: AlertDialog,
+  component: AlertDialog,     
   parameters: {
     layout: "centered",
   },

@@ -1,6 +1,6 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
-import { Meter } from "../src/Meter";
+import { Meter } from "../components/Meter";
 
 const meta: Meta<typeof Meter> = {
   component: Meter,

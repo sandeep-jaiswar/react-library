@@ -1,8 +1,8 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
 import { Form } from "react-aria-components";
-import { Button } from "../src/Button";
-import { Select, SelectItem, SelectSection } from "../src/Select";
+import { Button } from "../components/Button";
+import { Select, SelectItem, SelectSection } from "../components/Select";
 
 const meta: Meta<typeof Select> = {
   component: Select,

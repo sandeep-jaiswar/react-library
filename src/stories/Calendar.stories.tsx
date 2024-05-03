@@ -1,5 +1,5 @@
 import React from "react";
-import { Calendar } from "../src/Calendar";
+import { Calendar } from "../components/Calendar";
 
 import type { Meta } from "@storybook/react";
 

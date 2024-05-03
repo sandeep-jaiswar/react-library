@@ -1,6 +1,6 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
-import { Switch } from "../src/Switch";
+import { Switch } from "../components/Switch";
 
 const meta: Meta<typeof Switch> = {
   component: Switch,

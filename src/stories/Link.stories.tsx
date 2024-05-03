@@ -1,6 +1,6 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
-import { Link } from "../src/Link";
+import { Link } from "../components/Link";
 
 const meta: Meta<typeof Link> = {
   component: Link,

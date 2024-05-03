@@ -1,7 +1,14 @@
 import type { Meta } from "@storybook/react";
 import React, { useMemo, useState } from "react";
 import { TableBody } from "react-aria-components";
-import { Cell, Column, Row, Table, TableHeader } from "../src/Table";
+import { Cell, Column, Row, Table, TableHeader } from "../components/Table";
+
+interface RowData {
+  id: number;
+  name: string;
+  date: string;
+  type: string;
+}
 
 const meta: Meta<typeof Table> = {
   component: Table,
@@ -13,7 +20,7 @@ const meta: Meta<typeof Table> = {
 
 export default meta;
 
-let rows = [
+let rows: RowData[] = [
   { id: 1, name: "Games", date: "6/7/2020", type: "File folder" },
   { id: 2, name: "Program Files", date: "4/7/2021", type: "File folder" },
   { id: 3, name: "bootmgr", date: "11/20/2010", type: "System file" },
@@ -36,7 +43,7 @@ export const Example = (args: any) => {
     let items = rows
       .slice()
       .sort((a, b) =>
-        a[sortDescriptor.column].localeCompare(b[sortDescriptor.column])
+        (a[sortDescriptor.column as keyof RowData] as string).localeCompare(b[sortDescriptor.column as keyof RowData] as string)
       );
     if (sortDescriptor.direction === "descending") {
       items.reverse();

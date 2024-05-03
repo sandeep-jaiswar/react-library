@@ -1,5 +1,5 @@
 import React from "react";
-import { Breadcrumb, Breadcrumbs } from "../src/Breadcrumbs";
+import { Breadcrumb, Breadcrumbs } from "../components/Breadcrumbs";
 
 import type { Meta } from "@storybook/react";
 

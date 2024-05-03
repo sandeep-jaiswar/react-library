@@ -1,6 +1,6 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
-import { Tab, TabList, TabPanel, Tabs } from "../src/Tabs";
+import { Tab, TabList, TabPanel, Tabs } from "../components/Tabs";
 
 const meta: Meta<typeof Tabs> = {
   component: Tabs,

@@ -1,11 +1,11 @@
 import { BoldIcon, ItalicIcon, UnderlineIcon } from "lucide-react";
 import React from "react";
 import { Group } from "react-aria-components";
-import { Button } from "../src/Button";
-import { Checkbox } from "../src/Checkbox";
-import { Separator } from "../src/Separator";
-import { ToggleButton } from "../src/ToggleButton";
-import { Toolbar } from "../src/Toolbar";
+import { Button } from "../components/Button";
+import { Checkbox } from "../components/Checkbox";
+import { Separator } from "../components/Separator";
+import { ToggleButton } from "../components/ToggleButton";
+import { Toolbar } from "../components/Toolbar";
 
 import type { Meta } from "@storybook/react";
 

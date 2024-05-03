@@ -1,12 +1,12 @@
 import type { Meta } from "@storybook/react";
 import React from "react";
 import { Form } from "react-aria-components";
-import { Button } from "../src/Button";
+import { Button } from "../components/Button";
 import {
   ComboBox,
   ComboBoxItem,
   ComboBoxSection,
-} from "../src/ComboBox";
+} from "../components/ComboBox";
 
 const meta: Meta<typeof ComboBox> = {
   component: ComboBox,
