@@ -33,11 +33,12 @@
     "tailwindcss-react-aria-components": "^1.0.0",
     "typescript": "^5.3.2",
     "vite": "^5.2.10",
-    "vite-plugin-lib-inject-css": "^2.0.1"
+    "vite-plugin-lib-inject-css": "^2.0.1",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "scripts": {
     "start": "vite",
-    "build": "npx rimraf dist && tsc && vite build -c vite.config.js && vite build -c vite.umd.config.js",
+    "build": "npx rimraf dist && tsc && vite build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o dist/storybook"
   },
@@ -52,6 +53,7 @@
     "tailwind-variants": "^0.1.18",
     "tailwindcss": "^3.4.0",
     "tailwindcss-animate": "^1.0.7",
+    "terser": "^5.31.0",
     "vite-plugin-dts": "^3.9.0"
   },
   "peerDependencies": {
@@ -75,5 +77,9 @@
       ]
     }
   },
-  "files": ["dist"]
+  "files": [
+    "dist",
+    "src",
+    "types"
+  ]
 }
